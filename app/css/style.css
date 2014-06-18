@@ -13,8 +13,33 @@
     height: 48px;
     border-top: 1px solid #000;
     background: #888888;
+	clear: both;
 }
 
 #main {
     min-height: 360px;
+}
+
+#home-start {
+	float:left;
+}
+
+#home-marketing img {
+	height: 480px;
+	width: 240px;	
+}
+
+#home-marketing {
+	float:left;
+	clear:left;
+}
+
+#home-start .row {
+	clear: both;
+	float: left;
+}
+
+input.submit-button {
+	clear:both;
+	float:right;
 }

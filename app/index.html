@@ -17,10 +17,52 @@
             <label>HEADER</label>
         </div>
         <div id="main">
-            <label>Name:</label>
-            <input type="text" ng-model="yourName" placeholder="Enter a name here">
-            <hr>
-            <h1>Hello {{yourName}}!</h1>
+			<div id="login-box">
+	            <h3>Login</h3>
+				<form name="login">
+					<span>
+						<label>Username:</label>
+				        <input type="text" ng-model="username" placeholder="Enter username here" />
+					</span>
+					<span>
+						<label>Password:</label>
+					    <input type="password" ng-model="password" placeholder="Enter password here" />
+					</span>
+		            <input class="submit-button" type="submit" value="Log in as {{username}}"></input>
+				</form>
+			</div>
+			<div id="home-marketing">
+				<img src="">
+			</div>
+			<div id="home-start">
+				<form name="start">
+					<span class="row">
+						<label>Route:</label>
+						<input type="select" ng-model="route" />
+					</span>
+					<span class="row">
+						<label>Start Date:</label>
+						<input type="text" ng-model="startDate"/>
+					</span>
+					<span class="row">
+						<label>Pace:</label>
+						<input type="text" ng-model="pace"/>
+						<select ng-model="paceUom"></select>
+					</span>
+					<span class="row">
+						<label>Hours Per Day:</label>
+						<input type="text" ng-model="hoursPerDay"/>
+					</span>
+					<span class="row">
+						<label>Time off</label>
+						<input type="text" ng-model="timeOff">
+						<select ng-model="timeOffUom"></select>
+						<label>Frequency</label>
+						<select ng-model="timeOffFrequency"></select>
+					</span>
+					<input class="submit-button" type="submit" value="Start My Adventure">
+				</form>
+			</div>
         </div>
         <div id="footer">
             <label>FOOTER</label>
