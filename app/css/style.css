@@ -1,0 +1,20 @@
+#page {
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+#header {
+    height: 92px;
+    background: #888888;
+}
+
+#footer {
+    height: 48px;
+    border-top: 1px solid #000;
+    background: #888888;
+}
+
+#main {
+    min-height: 360px;
+}
