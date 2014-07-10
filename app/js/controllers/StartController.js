@@ -1,3 +1,5 @@
+//var start_app = angular.module('pmh', ['ngMock','$http']);
+
 // app.controller('StartController', [ '$http', function($http) {
 function StartController($scope, $http) {
 	$scope.routeDetails = {};
